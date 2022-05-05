@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     list-style: none;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Overpass","sans serif";
 }
 
 .resume-contents {
@@ -17,7 +17,7 @@
 .left-section {
     grid-column: span 2;
     height: 100%;
-    background-color: #999999;
+    background-color: #1f2022;
 }
 
 .right-section {
@@ -33,19 +33,23 @@
 
 .profile {
     width: 100%;
-    border-bottom: 2px solid #eeeeee;
+    border-bottom: 4px solid #ffc92b;
+    padding: 2rem;
 }
 
 .profile .profile-image {
     width: 100%;
     border-radius: 100%;
+    padding-bottom: 2rem;
 }
 
 .name {
     color: #D6DBDF;
-    font-size: 30px;
+    font-size: 25px;
     letter-spacing: 2px;
     text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
 }
 
 .profession {
@@ -53,16 +57,20 @@
     font-size: 20px;
     text-transform: uppercase;
     text-align: center;
+    font-weight: Normal;
 }
 
 /* .contact-info { border-bottom: 2px solid #1B2631; } */
 .left-title {
-    color: #eeeeee;
+    padding-top: 1rem;
+    padding-left: 1.5rem;
+    color: #ffc92b;
     font-size: 20px;
 }
 
 .contact-info ul {
-    padding-top: 1.5rem;
+    padding-top: 1rem;
+    padding-left: 1.5rem;
 }
 
 .contact-info ul li,
@@ -73,13 +81,13 @@
 
 .contact-info ul li i,
 .references ul li i {
-    padding-right: 1rem;
     font-size: 18px;
     color: #eeeeee;
 }
 
 .skills ul {
-    padding-top: 1.5rem;
+    padding-top: 1rem;
+    padding-left: 1.5rem;
 }
 .skills ul li p {
     padding: .4rem 0;
