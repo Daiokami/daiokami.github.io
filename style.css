@@ -101,6 +101,13 @@
 .right-title {
     color: #eeeeee;
     font-size: 20px;
+<<<<<<< HEAD
+=======
+    padding-bottom: 2rem;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+>>>>>>> 9602698795e938c96b58cc7416f4dc3f69dfc91f
 }
 
 .gap {
@@ -108,8 +115,17 @@
 }
 .about-me-contents {
     font-size: 18px;
+    padding-bottom: 1rem;
     color: #eeeeee;
 }
+
+.introduction { 
+    color: #F1F8FD;
+    font-size: 18px;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+}
+
 
 .experience-contents,
 .education-contents,
@@ -125,18 +141,24 @@
 .awards-company-name {
     font-size: 25px;
     font-weight: bold;
+    padding-left: 3rem;
+    color: #ffc92b;
+
 }
 
 .exp-time-period,
-.educationp-time-period,
+.education-time-period,
 .awards-time-period {
     font-size: 18px;
+    padding-bottom: 2rem;
+    padding-left: 3rem;
 }
 
 .exp-position,
 .education-subject,
 .awards-name {
     font-size: 25px;
+    padding-right: 2rem;
 }
 
 .exp-desc,
@@ -144,4 +166,5 @@
 .awards-desc {
     font-size: 16px;
     padding-left: 5px;
+    padding-right: 3rem;
 }
