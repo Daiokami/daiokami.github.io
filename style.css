@@ -44,7 +44,7 @@
 }
 
 .name {
-    color: #D6DBDF;
+    color: #eeeeee;
     font-size: 25px;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -66,6 +66,7 @@
     padding-left: 1.5rem;
     color: #ffc92b;
     font-size: 20px;
+    font-weight: bold;
 }
 
 .contact-info ul {
@@ -83,6 +84,7 @@
 .references ul li i {
     font-size: 18px;
     color: #eeeeee;
+    padding-right: 1rem;
 }
 
 .skills ul {
@@ -94,21 +96,23 @@
     color: #eeeeee;
 }
 
-.right-section-contents {
-    padding: 2rem 2rem;
-}
-
 .right-title {
     color: #eeeeee;
     font-size: 20px;
+    text-transform: uppercase;
+    text-align: left;
+    font-weight: bold;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
 }
 
-.gap {
-    padding-bottom: 2rem;
-}
 .about-me-contents {
     font-size: 18px;
     color: #eeeeee;
+    padding-right: 3rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
 }
 
 .experience-contents,
@@ -117,6 +121,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     padding-bottom: 2rem;
+    padding-left: 2rem;
     color: #F1F8FD;
 }
 
@@ -125,23 +130,34 @@
 .awards-company-name {
     font-size: 25px;
     font-weight: bold;
+    color: #ffc92b;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
 }
 
 .exp-time-period,
 .educationp-time-period,
 .awards-time-period {
-    font-size: 18px;
+    font-size: 16px;
+    padding-left: 5px;
+    padding-right: 3rem;
+    padding-bottom: 1rem;
 }
 
 .exp-position,
 .education-subject,
 .awards-name {
     font-size: 25px;
+    padding-right: 3rem;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
 }
 
 .exp-desc,
 .education-desc,
 .awards-desc {
-    font-size: 16px;
+    font-size: 18px;
     padding-left: 5px;
+    padding-right: 3rem;
+    padding-bottom: 1rem;
 }
